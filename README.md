@@ -57,7 +57,7 @@ Este es un programa en el cual se da el resultado del cuadrado del número asiga
 Este diagrama esta en el paquete ___edu.escuelaing.arws.SquareNumber___ con una clase, aunque necesita la ejecución de ___EchoClient.java___ no tienen un atributo en común.
 #### Ejecución
 > 1. Ejecución del programa.
-> 2. Ejecución de ___EchoClient____.
+> 2. Ejecución de ___EchoClient___.
 > 3. La entrada puede ser un número ó terminar ___EchoServer___ con "Bye.".
 > 4. La salida será el número cuadrado ó la despedida del servidor.
 
@@ -68,7 +68,7 @@ Este es un programa en el cual se ejecuta una calculadora triginometrica con las
 Este diagrama esta en el paquete ___edu.escuelaing.arws.TrigonometricCalculator___ con una clase, aunque necesita la ejecución de ___EchoClient.java___ no tienen un atributo en común.
 #### Ejecución
 > 1. Ejecución del programa.
-> 2. Ejecución de ___EchoClient____.
+> 2. Ejecución de ___EchoClient___.
 > 3. La entrada puede ser un número, el cambio de la función ___(fun:cos, fun:sin, fun:tan)___, terminar ___EchoServer___ con "Bye.".
 > 4. La salida será el resultado del número ó la despedida del servidor.
 
@@ -82,15 +82,15 @@ Se realizarón cuatro pruebas con mediante al comando: mvn test.<br>
 [JavaDoc - Networking](JavaDocs/index.html)
 
 ## Tiempo de Lineas LOC: 
-El archvivo URLScanner.java:<br>
+- El archvivo URLScanner.java:<br>
 52 + 15(Test) = 67 lineasLOC.<br>
-El archvivo URLReader.java:<br>
+- El archvivo URLReader.java:<br>
 102 + 15(Test) = 117 lineasLOC.<br>
-El archvivo HttpServer.java:<br>
+- El archvivo HttpServer.java:<br>
 33 + 36(Test) = 99 lineasLOC.<br>
-El archvivo EchoServerSquare.java:<br>
+- El archvivo EchoServerSquare.java:<br>
 54 + 25(Test) = 79 lineasLOC.<br>
-El archvivo EchoServerTrigonometric.java:<br>
+- El archvivo EchoServerTrigonometric.java:<br>
 77 + 26(Test) = 103 lineasLOC.
 
 ### Tiempo total:
