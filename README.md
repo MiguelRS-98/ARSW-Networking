@@ -94,6 +94,4 @@ Se realizarón cuatro pruebas con mediante al comando: mvn test.<br>
 77 + 26(Test) = 103 lineasLOC.
 
 ### Tiempo total:
-<p>
 ___465/14 = 33.21 lineasLOC/hora.___
-</p>
