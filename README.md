@@ -8,9 +8,10 @@
   1. Ejecutar ___EchoServer___ que quiere ejecutar.
   2. Ejecutar ___EchoCliente___ para poder ingresar entradas.
   3. Escribir entradas segun correspondan (Se explica a continuación).
+- El programa ___EchoClient___ solamente se ejecuta, las entradas que se ingresan depende del servidor activado.
 
 ### Descripción de URLScanner.java
-Este programa lee una URL a la cual se podra extraer y mostrar los protocolos de esta, en total 8 protocolos ()
+Este programa lee una URL a la cual se podra extraer y mostrar los protocolos de esta, en total 8 protocolos (getProtocol, getAuthority, getHost, getPort, getPath, getQuery, getFile, getRef.)
 #### Ejecución
 > 1. Ejecución del programa.
 > 2. La entrada debe ser una URL.
@@ -30,6 +31,13 @@ Este es un programa que ejecuta un servidor HTTP en el cual se podran ejecutar d
 > 1. Ejecución del programa.
 > 2. Ingresará en su buscador preferido y pondrá la dirección: http://127.0.0.1:35000/ + El archivo que quiere visualizar.
 
+### Descripción de EchoClient.java
+Este programa crea un cliente el cual interactua con el servidor activo en ese momento.
+#### Ejecución
+> 1. Ejecución del programa.
+> 2. Ejecución del Servidor.
+> 3. La entrada y salida dependerá de las entradas y salidas de los servidores activos.
+
 ### Descripción de EchoServerSquare.java
 Este es un programa en el cual se da el resultado del cuadrado del número asigando.
 #### Ejecución
@@ -48,18 +56,20 @@ Este es un programa en el cual se ejecuta una calculadora triginometrica con las
 
 ## Diagrama de Clases
 ### Diagrama URLScanner.java
-![Diagrama Clases](Image/DiagramaClase1.jpg)
+![Diagrama Clases](Image/DiagramaClase1.PNG)
 ### Diagrama URLReader.java
-![Diagrama Clases](Image/DiagramaClase2.jpg)
+![Diagrama Clases](Image/DiagramaClase2.PNG)
 ### Diagrama HttpServer.java
-![Diagrama Clases](Image/DiagramaClase3.jpg)
+![Diagrama Clases](Image/DiagramaClase3.PNG)
+### Diagrama EchoClient.java
+![Diagrama Clases](Image/DiagramaClase4.PNG)
 ### Diagrama EchoServerSquare.java
-![Diagrama Clases](Image/DiagramaClase4.jpg)
+![Diagrama Clases](Image/DiagramaClase5.PNG)
 ### Diagrama EchoServerTrigonometric.java
-![Diagrama Clases](Image/DiagramaClase5.jpg)
+![Diagrama Clases](Image/DiagramaClase6.PNG)
 
 ## Test
-![Test App](Image/Test.PNG)
+![Test App](Image/Test.PNG)<br>
 Se realizarón cuatro pruebas con mediante al comando: mvn test.<br>
 > - Se realizaron 3 Pruebas por programa.
 > - Las pruebas de HttpServer se verifican entrando en http://127.0.0.1:35000/TestHttpServer1.html, http://127.0.0.1:35000/TestHttpServer2.html ó http://127.0.0.1:35000/TestHttpServer3.html .
