@@ -11,7 +11,10 @@
 - El programa ___EchoClient___ solamente se ejecuta, las entradas que se ingresan depende del servidor activado.
 
 ### Descripción de URLScanner.java
-Este programa lee una URL a la cual se podra extraer y mostrar los protocolos de esta, en total 8 protocolos (getProtocol, getAuthority, getHost, getPort, getPath, getQuery, getFile, getRef.)
+Este programa lee una URL a la cual se podra extraer y mostrar los protocolos de esta, en total 8 protocolos (getProtocol, getAuthority, getHost, getPort, getPath, getQuery, getFile, getRef)
+#### Diagrama URLScanner.java
+![Diagrama Clases](Image/DiagramaClase1.PNG)<br>
+Este diagrama es de un paquete con una clase, pues es de ejcución unica.
 #### Ejecución
 > 1. Ejecución del programa.
 > 2. La entrada debe ser una URL.
@@ -19,6 +22,9 @@ Este programa lee una URL a la cual se podra extraer y mostrar los protocolos de
 
 ### Descripción de URLReader.java
 Este programa lee el contenido de la URL y lo extrae archivando la información en un archivo con extensión .html .
+#### Diagrama URLReader.java
+![Diagrama Clases](Image/DiagramaClase2.PNG)<br>
+Este diagrama es de un paquete con una clase, pues es de ejcución unica.
 #### Ejecución
 > 1. Ejecución del programa.
 > 2. La entrada debe ser una URL.
@@ -27,12 +33,18 @@ Este programa lee el contenido de la URL y lo extrae archivando la información 
 
 ### Descripción de HttpServer.java
 Este es un programa que ejecuta un servidor HTTP en el cual se podran ejecutar diferentes archivos dentro de este.
+#### Diagrama HttpServer.java
+![Diagrama Clases](Image/DiagramaClase3.PNG)<br>
+Este diagrama es de un paquete con una clase, pues es de ejcución unica.
 #### Ejecución
 > 1. Ejecución del programa.
 > 2. Ingresará en su buscador preferido y pondrá la dirección: http://127.0.0.1:35000/ + El archivo que quiere visualizar.
 
 ### Descripción de EchoClient.java
 Este programa crea un cliente el cual interactua con el servidor activo en ese momento.
+#### Diagrama EchoClient.java
+![Diagrama Clases](Image/DiagramaClase4.PNG)<br>
+Este diagrama es de un paquete con una clase, pues es de ejcución unica.
 #### Ejecución
 > 1. Ejecución del programa.
 > 2. Ejecución del Servidor.
@@ -40,6 +52,9 @@ Este programa crea un cliente el cual interactua con el servidor activo en ese m
 
 ### Descripción de EchoServerSquare.java
 Este es un programa en el cual se da el resultado del cuadrado del número asigando.
+#### Diagrama EchoServerSquare.java
+![Diagrama Clases](Image/DiagramaClase5.PNG)<br>
+Este diagrama es de un paquete con una clase, aunque necesita la ejecución de ___EchoClient.java___ no tienen un atributo en común.
 #### Ejecución
 > 1. Ejecución del programa.
 > 2. Ejecución de ___EchoClient____.
@@ -48,25 +63,14 @@ Este es un programa en el cual se da el resultado del cuadrado del número asiga
 
 ### Descripción de EchoServerTrigonometric.java
 Este es un programa en el cual se ejecuta una calculadora triginometrica con las funciones de Seno, Coseno y Tangente.
+#### Diagrama EchoServerTrigonometric.java
+![Diagrama Clases](Image/DiagramaClase6.PNG)<br>
+Este diagrama es de un paquete con una clase, aunque necesita la ejecución de ___EchoClient.java___ no tienen un atributo en común.
 #### Ejecución
 > 1. Ejecución del programa.
 > 2. Ejecución de ___EchoClient____.
-> 3. La entrada puede ser un número, el cambio de la función___(fun:cos, fun:sin, fun:tan)___, terminar ___EchoServer___ con "Bye.".
+> 3. La entrada puede ser un número, el cambio de la función ___(fun:cos, fun:sin, fun:tan)___, terminar ___EchoServer___ con "Bye.".
 > 4. La salida será el resultado del número ó la despedida del servidor.
-
-## Diagrama de Clases
-### Diagrama URLScanner.java
-![Diagrama Clases](Image/DiagramaClase1.PNG)
-### Diagrama URLReader.java
-![Diagrama Clases](Image/DiagramaClase2.PNG)
-### Diagrama HttpServer.java
-![Diagrama Clases](Image/DiagramaClase3.PNG)
-### Diagrama EchoClient.java
-![Diagrama Clases](Image/DiagramaClase4.PNG)
-### Diagrama EchoServerSquare.java
-![Diagrama Clases](Image/DiagramaClase5.PNG)
-### Diagrama EchoServerTrigonometric.java
-![Diagrama Clases](Image/DiagramaClase6.PNG)
 
 ## Test
 ![Test App](Image/Test.PNG)<br>
