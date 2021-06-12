@@ -82,18 +82,18 @@ Se realizarón cuatro pruebas con mediante al comando: mvn test.<br>
 [JavaDoc - Networking](JavaDocs/index.html)
 
 ## Tiempo de Lineas LOC: 
-- El archvivo URLScanner.java:<br>
+- ___El archvivo URLScanner.java:___<br>
 52 + 15(Test) = 67 lineasLOC.<br>
-- El archvivo URLReader.java:<br>
+- ___El archvivo URLReader.java:___<br>
 102 + 15(Test) = 117 lineasLOC.<br>
-- El archvivo HttpServer.java:<br>
+- ___El archvivo HttpServer.java:___<br>
 33 + 36(Test) = 99 lineasLOC.<br>
-- El archvivo EchoServerSquare.java:<br>
+- ___El archvivo EchoServerSquare.java:___<br>
 54 + 25(Test) = 79 lineasLOC.<br>
-- El archvivo EchoServerTrigonometric.java:<br>
+- ___El archvivo EchoServerTrigonometric.java:___<br>
 77 + 26(Test) = 103 lineasLOC.
 
 ### Tiempo total:
 <p>
-465/14 = 33.21 lineasLOC/hora.
+___465/14 = 33.21 lineasLOC/hora.___
 </p>
