@@ -21,7 +21,7 @@ Este diagrama esta en el paquete ___edu.escuelaing.arws.URLProtocols___ con una 
 > 3. La salida serán los 8 protocolos de la URL.
 
 ### Descripción de URLReader.java
-Este programa lee el contenido de la URL y lo extrae archivando la información en un archivo con extensión .html .
+Este programa lee el contenido de la ___URL___ y lo extrae archivando la información en un archivo con extensión ___.html___ .
 #### Diagrama URLReader.java
 ![Diagrama Clases](Image/DiagramaClase2.PNG)<br>
 Este diagrama esta en el paquete ___edu.escuelaing.arsw.AppBrowser___ con una clase, pues es de ejcución unica.
@@ -32,7 +32,7 @@ Este diagrama esta en el paquete ___edu.escuelaing.arsw.AppBrowser___ con una cl
 > 4. El archivo resultado.html se guardará en la carpeta principal del proyecto.
 
 ### Descripción de HttpServer.java
-Este es un programa que ejecuta un servidor HTTP en el cual se podran ejecutar diferentes archivos dentro de este.
+Este es un programa que ejecuta un ___servidor HTTP___ en el cual se podran ejecutar diferentes archivos dentro de este.
 #### Diagrama HttpServer.java
 ![Diagrama Clases](Image/DiagramaClase3.PNG)<br>
 Este diagrama esta en el paquete ___edu.escuelaing.arws.HttpServer___ con una clase, pues es de ejcución unica.
@@ -51,7 +51,7 @@ Este diagrama esta en el paquete ___edu.escuelaing.arws.Networking___ con una cl
 > 3. La entrada y salida dependerá de las entradas y salidas de los servidores activos.
 
 ### Descripción de EchoServerSquare.java
-Este es un programa en el cual se da el resultado del cuadrado del número asigando.
+Este es un programa en el cual se da el resultado del ___cuadrado del número___ asigando.
 #### Diagrama EchoServerSquare.java
 ![Diagrama Clases](Image/DiagramaClase5.PNG)<br>
 Este diagrama esta en el paquete ___edu.escuelaing.arws.SquareNumber___ con una clase, aunque necesita la ejecución de ___EchoClient.java___ no tienen un atributo en común.
@@ -62,7 +62,7 @@ Este diagrama esta en el paquete ___edu.escuelaing.arws.SquareNumber___ con una 
 > 4. La salida será el número cuadrado ó la despedida del servidor.
 
 ### Descripción de EchoServerTrigonometric.java
-Este es un programa en el cual se ejecuta una calculadora triginometrica con las funciones de Seno, Coseno y Tangente.
+Este es un programa en el cual se ejecuta una calculadora triginometrica con las funciones de ___Seno, Coseno y Tangente___.
 #### Diagrama EchoServerTrigonometric.java
 ![Diagrama Clases](Image/DiagramaClase6.PNG)<br>
 Este diagrama esta en el paquete ___edu.escuelaing.arws.TrigonometricCalculator___ con una clase, aunque necesita la ejecución de ___EchoClient.java___ no tienen un atributo en común.
