@@ -11,13 +11,13 @@
 - El programa ___EchoClient___ solamente se ejecuta, las entradas que se ingresan depende del servidor activado.
 
 ### Descripción de URLScanner.java
-Este programa lee una URL a la cual se podra extraer y mostrar los protocolos de esta, en total 8 protocolos (getProtocol, getAuthority, getHost, getPort, getPath, getQuery, getFile, getRef)
+Este programa lee una URL a la cual se podra extraer y mostrar los protocolos de esta, en total 8 protocolos ___(getProtocol, getAuthority, getHost, getPort, getPath, getQuery, getFile, getRef)___
 #### Diagrama URLScanner.java
 ![Diagrama Clases](Image/DiagramaClase1.PNG)<br>
 Este diagrama esta en el paquete ___edu.escuelaing.arws.URLProtocols___ con una clase, pues es de ejcución unica.
 #### Ejecución
 > 1. Ejecución del programa.
-> 2. La entrada debe ser una URL.
+> 2. La entrada debe ser una ___URL___.
 > 3. La salida serán los 8 protocolos de la URL.
 
 ### Descripción de URLReader.java
@@ -27,7 +27,7 @@ Este programa lee el contenido de la URL y lo extrae archivando la información 
 Este diagrama esta en el paquete ___edu.escuelaing.arsw.AppBrowser___ con una clase, pues es de ejcución unica.
 #### Ejecución
 > 1. Ejecución del programa.
-> 2. La entrada debe ser una URL.
+> 2. La entrada debe ser una ___URL___.
 > 3. La salida será un mensaje que explicará si el proceso a terminado.
 > 4. El archivo resultado.html se guardará en la carpeta principal del proyecto.
 
@@ -58,7 +58,7 @@ Este diagrama esta en el paquete ___edu.escuelaing.arws.SquareNumber___ con una 
 #### Ejecución
 > 1. Ejecución del programa.
 > 2. Ejecución de ___EchoClient___.
-> 3. La entrada puede ser un número ó terminar ___EchoServer___ con "Bye.".
+> 3. La entrada puede ser un número ó terminar ___EchoServer___ con ___"Bye."___.
 > 4. La salida será el número cuadrado ó la despedida del servidor.
 
 ### Descripción de EchoServerTrigonometric.java
@@ -69,12 +69,12 @@ Este diagrama esta en el paquete ___edu.escuelaing.arws.TrigonometricCalculator_
 #### Ejecución
 > 1. Ejecución del programa.
 > 2. Ejecución de ___EchoClient___.
-> 3. La entrada puede ser un número, el cambio de la función ___(fun:cos, fun:sin, fun:tan)___, terminar ___EchoServer___ con "Bye.".
+> 3. La entrada puede ser un número, el cambio de la función ___(fun:cos, fun:sin, fun:tan)___, terminar ___EchoServer___ con ___"Bye."___.
 > 4. La salida será el resultado del número ó la despedida del servidor.
 
 ## Test
 ![Test App](Image/Test.PNG)<br>
-Se realizarón cuatro pruebas con mediante al comando: mvn test.<br>
+- Se realizarón cuatro pruebas con mediante al comando: ___mvn test.___<br>
 > - Se realizaron 3 Pruebas por programa.
 > - Las pruebas de HttpServer se verifican entrando en http://127.0.0.1:35000/TestHttpServer1.html, http://127.0.0.1:35000/TestHttpServer2.html ó http://127.0.0.1:35000/TestHttpServer3.html .
 
